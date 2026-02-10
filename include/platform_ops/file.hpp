@@ -18,6 +18,9 @@
 #include <crux/crux.hpp>
 
 #if IA_PLATFORM_WINDOWS
+#  define WIN32_LEAN_AND_MEAN
+#  include <Windows.h>
+
 using NativeFileHandle = HANDLE;
 static const NativeFileHandle INVALID_FILE_HANDLE = INVALID_HANDLE_VALUE;
 #else

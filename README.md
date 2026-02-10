@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" alt="PlatformOps Logo" width="130" style="border-radius: 1.15rem;"/>
+  <img src="logo.png" alt="PlatformOps Logo" width="280" style="border-radius: 1.15rem;"/>
   <br/>
   
   <img src="https://img.shields.io/badge/license-apache_v2-blue.svg" alt="License"/>
@@ -19,17 +19,17 @@ PlatformOps uses `CMakePresets.json` for build configuration.
 **Linux (x64)**
 
 ```bash
-cmake --preset fixpoint-x64-linux  
-cmake --build --preset fixpoint-x64-linux  
-ctest --preset fixpoint-x64-linux
+cmake --preset platform_ops-x64-linux  
+cmake --build --preset platform_ops-x64-linux  
+ctest --preset platform_ops-x64-linux
 ```
 
 **Windows (x64 Clang)**
 
 ```bash
-cmake --preset fixpoint-x64-windows  
-cmake --build --preset fixpoint-x64-windows  
-ctest --preset fixpoint-x64-windows
+cmake --preset platform_ops-x64-windows  
+cmake --build --preset platform_ops-x64-windows  
+ctest --preset platform_ops-x64-windows
 ```
 
 ## **License**

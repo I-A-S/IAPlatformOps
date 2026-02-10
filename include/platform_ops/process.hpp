@@ -21,6 +21,9 @@
 #include <thread>
 
 #if IA_PLATFORM_WINDOWS
+#  define WIN32_LEAN_AND_MEAN
+#  include <Windows.h>
+
 using NativeProcessID = DWORD;
 #elif IA_PLATFORM_UNIX
 using NativeProcessID = pid_t;
