@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" alt="PlatformOps Logo" width="280" style="border-radius: 1.15rem;"/>
+  <img src="logo.png" alt="PlatformOps Logo" width="380" style="border-radius: 1.15rem;"/>
   <br/>
   
   <img src="https://img.shields.io/badge/license-apache_v2-blue.svg" alt="License"/>
